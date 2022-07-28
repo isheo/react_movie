@@ -7,8 +7,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/movie/:id" element={<Detail />}></Route>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/react_movie/movie/:id" element={<Detail />}></Route>
+        <Route path="/react_movie/" element={<Home />}></Route>
       </Routes>
     </Router>
   );
